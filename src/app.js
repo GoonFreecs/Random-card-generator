@@ -19,6 +19,7 @@ window.onload = function() {
   document.querySelector(".top-suit").innerHTML = suits[suitIndex];
   document.querySelector(".bottom-suit").innerHTML = suits[suitIndex];
   document.querySelector(".number").innerHTML = numbers[numberIndex];
+
   const color = suit === "♦" || suit === "♥" ? "red" : "black";
   document.querySelector(".top-suit").style.color = color;
   document.querySelector(".bottom-suit").style.color = color;
