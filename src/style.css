@@ -24,6 +24,7 @@ body {
   font-size: 50px;
 }
 .bottom-suit {
+  transform: rotate(180deg);
   position: absolute;
   bottom: 20px;
   right: 20px;
